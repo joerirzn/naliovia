@@ -50,7 +50,7 @@ if (!window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
     { rootMargin: "-35% 0px -35% 0px" }
   );
 
-  document.querySelectorAll(".work-card").forEach((card) => proximityObserver.observe(card));
+  document.querySelectorAll(".work-card, .about-photo").forEach((el) => proximityObserver.observe(el));
 }
 
 const videoModal = document.getElementById("videoModal");

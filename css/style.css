@@ -317,7 +317,13 @@ a {
   transition: transform 0.3s ease;
 }
 
-.about-photo:hover img {
+@media (hover: hover) and (pointer: fine) {
+  .about-photo:hover img {
+    transform: rotate(-3deg) scale(1.06);
+  }
+}
+
+.about-photo.is-active img {
   transform: rotate(-3deg) scale(1.06);
 }
 
