@@ -292,7 +292,7 @@ a {
 .about {
   background: var(--menu);
   color: var(--ink);
-  padding: 6rem clamp(2rem, 5vw, 6rem);
+  padding: 6rem clamp(1.5rem, 6vw, 8rem);
   text-align: center;
   border-bottom: 0.5px solid rgba(235, 235, 223, 0.3);
 }
@@ -301,7 +301,7 @@ a {
   display: flex;
   align-items: center;
   gap: 4rem;
-  max-width: 88rem;
+  max-width: 110rem;
   margin: 0 auto;
   text-align: left;
 }
@@ -357,7 +357,7 @@ a {
 .work {
   position: relative;
   background: var(--burgundy);
-  padding: 7rem clamp(2rem, 5vw, 6rem);
+  padding: 7rem clamp(1.5rem, 6vw, 8rem);
   border-bottom: 0.5px solid rgba(235, 235, 223, 0.3);
   overflow: hidden;
 }
@@ -376,7 +376,7 @@ a {
 .work-inner {
   position: relative;
   z-index: 1;
-  max-width: 88rem;
+  max-width: 110rem;
   margin: 0 auto;
 }
 
@@ -536,7 +536,7 @@ a {
   background: var(--black);
   color: var(--cream);
   text-align: center;
-  padding: 6rem clamp(2rem, 5vw, 6rem);
+  padding: 6rem clamp(1.5rem, 6vw, 8rem);
   border-bottom: 0.5px solid rgba(235, 235, 223, 0.3);
 }
 
