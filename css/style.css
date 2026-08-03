@@ -292,7 +292,7 @@ a {
 .about {
   background: var(--menu);
   color: var(--ink);
-  padding: 6rem 2rem;
+  padding: 6rem clamp(2rem, 5vw, 6rem);
   text-align: center;
   border-bottom: 0.5px solid rgba(235, 235, 223, 0.3);
 }
@@ -357,7 +357,7 @@ a {
 .work {
   position: relative;
   background: var(--burgundy);
-  padding: 7rem 2rem;
+  padding: 7rem clamp(2rem, 5vw, 6rem);
   border-bottom: 0.5px solid rgba(235, 235, 223, 0.3);
   overflow: hidden;
 }
@@ -536,7 +536,7 @@ a {
   background: var(--black);
   color: var(--cream);
   text-align: center;
-  padding: 6rem 2rem;
+  padding: 6rem clamp(2rem, 5vw, 6rem);
   border-bottom: 0.5px solid rgba(235, 235, 223, 0.3);
 }
 
