@@ -1,3 +1,11 @@
+const heroVideo = document.querySelector(".hero-video");
+if (heroVideo) {
+  const tryPlayHeroVideo = () => heroVideo.play().catch(() => {});
+  tryPlayHeroVideo();
+  document.addEventListener("touchstart", tryPlayHeroVideo, { once: true });
+  document.addEventListener("click", tryPlayHeroVideo, { once: true });
+}
+
 const navToggle = document.querySelector(".nav-toggle");
 const siteNav = document.querySelector(".site-nav");
 
