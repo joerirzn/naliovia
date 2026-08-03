@@ -207,6 +207,12 @@ a {
   z-index: 0;
 }
 
+.hero-video::-webkit-media-controls,
+.hero-video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;
