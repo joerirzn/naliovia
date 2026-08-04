@@ -427,7 +427,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 0.5px solid rgba(235, 235, 223, 0.3);
   transition: transform 0.25s ease;
 }
 
